@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow this file
+!.gitignore
+
+# Allow top-level README
+!README.md
+
+# Allow data/ and only its intended contents
+!data/
+!data/*.py
+!data/sample_data.xlsx
+
+# Allow pipeline/ and only Python scripts
+!pipeline/
+!pipeline/*.py
